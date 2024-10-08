@@ -38,9 +38,11 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
 ## Relacionamentos Adicionais:
 
 **Cultura e Produtor:** Uma cultura pode ser cultivada por um produtor específico.
+
 **Sensor e Sistema:** Um sensor pode estar conectado a um sistema de coleta de dados.
 
 ## Restrições:
+
 Um sensor do tipo pH só pode ser associado a culturas que exigem medições de pH.
 
 

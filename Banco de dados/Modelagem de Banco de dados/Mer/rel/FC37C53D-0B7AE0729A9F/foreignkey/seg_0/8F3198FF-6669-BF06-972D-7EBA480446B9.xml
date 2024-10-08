@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F3198FF-6669-BF06-972D-7EBA480446B9" containerWithKeyObject="28C11C9A-D1C0-2D0D-E044-2B2BCEC9BBAA" localFKIndex="986205B9-9CFF-72D6-FBBA-1A5F4E443DAA" name="FK_Sensor_Nutrientes_Culturas">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>C8F31A63-6E9B-90A8-0092-6FD70E24EE7D</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<referredTableLongName>Culturas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF116806-5666-8DEF-7C81-19DF3224E4CC</referredTableID>
+<keyObject>98B1206A-24DA-96D0-1240-F97C3833B452</keyObject>
+<referredKeyID>98B1206A-24DA-96D0-1240-F97C3833B452</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdCultura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

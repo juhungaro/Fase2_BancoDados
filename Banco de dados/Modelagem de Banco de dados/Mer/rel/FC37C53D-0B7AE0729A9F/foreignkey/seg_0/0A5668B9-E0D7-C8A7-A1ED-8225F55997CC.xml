@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A5668B9-E0D7-C8A7-A1ED-8225F55997CC" containerWithKeyObject="9060FA1E-786A-923F-E41D-C7CF1DEDB659" localFKIndex="B99742C8-7255-2A69-184B-05219DB0324D" name="FK_Sensor_Ph_Culturas">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>22E3833F-5DC7-AB69-56FF-103D9A1614BA</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<referredTableLongName>Culturas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF116806-5666-8DEF-7C81-19DF3224E4CC</referredTableID>
+<keyObject>98B1206A-24DA-96D0-1240-F97C3833B452</keyObject>
+<referredKeyID>98B1206A-24DA-96D0-1240-F97C3833B452</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdCultura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

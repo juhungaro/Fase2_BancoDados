@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28C11C9A-D1C0-2D0D-E044-2B2BCEC9BBAA" name="Sensor_Nutrientes">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>FD14131B-AA7F-78A0-D176-658ADE79C9C4</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdSensorNutriente" id="6E4EEB4C-44EE-A95D-37F9-016BAE36368D">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>4B619586-2369-0091-BBB4-C64119C376D1</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorFosforo" id="1BE6708B-DC8D-77AC-5BF0-ECE6705B20E8">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>7DAC2CBE-1D1D-4995-D063-66DCBA22359F</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ValorPotassio" id="D01C8359-EE68-0E43-FDE6-13E1BE4B80DD">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>FE2E8363-ACEB-0E02-6407-E107F05A3D90</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DataMedicao" id="DC64048B-731C-481B-7512-C78C6E9A881A">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>6D962431-0397-5EB9-4865-FDAE1CFC6AED</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCultura" id="358149C8-4D9C-6D0B-A48D-E4EF676EB6FE">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>EA505EBA-82CD-B682-12DC-F9E8B142610A</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F3198FF-6669-BF06-972D-7EBA480446B9" referredColumn="E4BBFB91-3729-8DCE-004B-BDED68B85DDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A45F6D42-4A79-E57F-2F3A-6D440D20D315" name="PK_Sensor_Nutrientes">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>CFEBE6D8-3CE3-701C-BDE3-BEC2E15CAB50</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E4EEB4C-44EE-A95D-37F9-016BAE36368D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="986205B9-9CFF-72D6-FBBA-1A5F4E443DAA" name="FK_Sensor_Nutrientes_Culturas">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>C8F31A63-6E9B-90A8-0092-6FD70E24EE7D</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="358149C8-4D9C-6D0B-A48D-E4EF676EB6FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

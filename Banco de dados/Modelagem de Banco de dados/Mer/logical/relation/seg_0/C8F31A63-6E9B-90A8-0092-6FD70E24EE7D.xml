@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cultura_sensor_nutrientes" directorySegmentName="seg_0" id="C8F31A63-6E9B-90A8-0092-6FD70E24EE7D">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 01:57:27 UTC</createdTime>
+<ownerDesignName>Mer</ownerDesignName>
+<engineerTo>
+<item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
+</engineerTo>
+<sourcePk>18E7F48C-60A3-2B20-2D56-F770EF75C813</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7FE65824-0EE9-1163-DA01-70F50A9A0CCB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD14131B-AA7F-78A0-D176-658ADE79C9C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

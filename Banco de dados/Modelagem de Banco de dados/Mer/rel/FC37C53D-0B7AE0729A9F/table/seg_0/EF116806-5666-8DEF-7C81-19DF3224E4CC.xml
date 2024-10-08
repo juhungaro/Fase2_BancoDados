@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF116806-5666-8DEF-7C81-19DF3224E4CC" name="Culturas">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>7FE65824-0EE9-1163-DA01-70F50A9A0CCB</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCultura" id="E4BBFB91-3729-8DCE-004B-BDED68B85DDA">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>B927F714-62B3-FA1C-8305-7F09993494D2</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="B239D2B8-B720-F8E0-9543-27B74BF3E9EA">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>4926F1BD-64B5-9978-14A0-B8C821F53380</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98B1206A-24DA-96D0-1240-F97C3833B452" name="PK_Culturas">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:34:05 UTC</createdTime>
+<generatorID>18E7F48C-60A3-2B20-2D56-F770EF75C813</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4BBFB91-3729-8DCE-004B-BDED68B85DDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="515BE35B-B3DB-0E42-77E4-CE30653F5FDD" name="UN_Culturas_Nome">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 02:43:30 UTC</createdTime>
+<ownerDesignName>Mer</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B239D2B8-B720-F8E0-9543-27B74BF3E9EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

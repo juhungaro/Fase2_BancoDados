@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cultura_sensor_umidade" directorySegmentName="seg_0" id="C5792A49-62DF-8D24-F237-E3EAB2C0A16F">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 01:54:57 UTC</createdTime>
+<ownerDesignName>Mer</ownerDesignName>
+<engineerTo>
+<item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
+</engineerTo>
+<sourcePk>18E7F48C-60A3-2B20-2D56-F770EF75C813</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7FE65824-0EE9-1163-DA01-70F50A9A0CCB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA397D26-9332-4184-12EC-9D676FB5792A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id" id="B927F714-62B3-FA1C-8305-7F09993494D2">
+<Attribute name="IdCultura" id="B927F714-62B3-FA1C-8305-7F09993494D2">
 <createdBy>DIOGO-PC</createdBy>
 <createdTime>2024-10-08 01:35:37 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
@@ -34,11 +34,11 @@
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

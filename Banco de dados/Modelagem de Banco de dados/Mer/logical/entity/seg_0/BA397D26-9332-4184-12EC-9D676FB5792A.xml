@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B9B3A86-262A-FD90-1DF8-28E6710F905E" name="Sensor_Ph">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA397D26-9332-4184-12EC-9D676FB5792A" name="Sensor_Umidades">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:39:30 UTC</createdTime>
+<createdTime>2024-10-08 01:37:14 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id" id="69B0B97A-5C9E-3B05-BDCD-67D05569D9AA">
+<Attribute name="IdSensorUmidade" id="6D0C979E-5A5A-3E90-2384-0EEBE8378DD2">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:39:30 UTC</createdTime>
+<createdTime>2024-10-08 01:37:30 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
@@ -27,40 +27,41 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Valor" id="A354D885-DC4E-C998-9683-75A8250732EC">
+<Attribute name="Valor" id="183205C8-B508-E2D6-4A15-2024BE37239E">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:39:30 UTC</createdTime>
+<createdTime>2024-10-08 01:37:39 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT020</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DataMedicao" id="CA1DE939-5C93-8960-8988-F6172BCBE286">
+<Attribute name="DataMedicao" id="A3547F1F-E506-8A57-20FF-A85308049115">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:39:30 UTC</createdTime>
+<createdTime>2024-10-08 01:38:07 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CulturaId" id="A961119F-10DF-BEEF-DA2E-B7C5B1320C5E">
+<Attribute name="IdCultura" id="0D6F3AC2-1179-0601-7DDB-6B827D0D0FD2">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:39:30 UTC</createdTime>
+<createdTime>2024-10-08 01:54:57 UTC</createdTime>
+<generatorID>C5792A49-62DF-8D24-F237-E3EAB2C0A16F</generatorID>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B927F714-62B3-FA1C-8305-7F09993494D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -68,16 +69,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6EA80703-08A4-3EB0-7AD8-6AB5C1C2BA87" name="Sensor_Umidade PK">
+<identifier id="B940C99D-4260-F2A8-623A-F47DCECB43CB" name="Sensor_Umidade PK">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:39:30 UTC</createdTime>
+<createdTime>2024-10-08 01:37:37 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
+<item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>69B0B97A-5C9E-3B05-BDCD-67D05569D9AA</attributeRef>
+<attributeRef>6D0C979E-5A5A-3E90-2384-0EEBE8378DD2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

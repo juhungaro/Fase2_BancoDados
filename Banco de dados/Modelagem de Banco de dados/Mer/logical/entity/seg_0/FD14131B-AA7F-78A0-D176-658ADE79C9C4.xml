@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA397D26-9332-4184-12EC-9D676FB5792A" name="Sensor_Umidade">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD14131B-AA7F-78A0-D176-658ADE79C9C4" name="Sensor_Nutrientes">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:37:14 UTC</createdTime>
+<createdTime>2024-10-08 01:39:52 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id" id="6D0C979E-5A5A-3E90-2384-0EEBE8378DD2">
+<Attribute name="IdSensorNutriente" id="4B619586-2369-0091-BBB4-C64119C376D1">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:37:30 UTC</createdTime>
+<createdTime>2024-10-08 01:39:52 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
@@ -27,40 +27,55 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Valor" id="183205C8-B508-E2D6-4A15-2024BE37239E">
+<Attribute name="ValorFosforo" id="7DAC2CBE-1D1D-4995-D063-66DCBA22359F">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:37:39 UTC</createdTime>
+<createdTime>2024-10-08 01:39:52 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT020</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DataMedicao" id="A3547F1F-E506-8A57-20FF-A85308049115">
+<Attribute name="ValorPotassio" id="FE2E8363-ACEB-0E02-6407-E107F05A3D90">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:38:07 UTC</createdTime>
+<createdTime>2024-10-08 01:40:06 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CulturaId" id="0EDB5F55-865A-9986-8CA3-FD9C7EF0F087">
+<Attribute name="DataMedicao" id="6D962431-0397-5EB9-4865-FDAE1CFC6AED">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:38:43 UTC</createdTime>
+<createdTime>2024-10-08 01:39:52 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCultura" id="EA505EBA-82CD-B682-12DC-F9E8B142610A">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 01:57:27 UTC</createdTime>
+<generatorID>C8F31A63-6E9B-90A8-0092-6FD70E24EE7D</generatorID>
+<ownerDesignName>Mer</ownerDesignName>
+<engineerTo>
+<item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
+</engineerTo>
+<referedAttribute>B927F714-62B3-FA1C-8305-7F09993494D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -68,16 +83,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B940C99D-4260-F2A8-623A-F47DCECB43CB" name="Sensor_Umidade PK">
+<identifier id="CFEBE6D8-3CE3-701C-BDE3-BEC2E15CAB50" name="Sensor_Nutriente PK">
 <createdBy>DIOGO-PC</createdBy>
-<createdTime>2024-10-08 01:37:37 UTC</createdTime>
+<createdTime>2024-10-08 01:39:52 UTC</createdTime>
 <ownerDesignName>Mer</ownerDesignName>
 <engineerTo>
 <item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>4B619586-2369-0091-BBB4-C64119C376D1</newElementsIDs>
 <usedAttributes>
-<attributeRef>6D0C979E-5A5A-3E90-2384-0EEBE8378DD2</attributeRef>
+<attributeRef>4B619586-2369-0091-BBB4-C64119C376D1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

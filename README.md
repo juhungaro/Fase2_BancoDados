@@ -33,13 +33,8 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
 ## Atributos Adicionais
 
 **Sensor:** Modelo do sensor, fabricante, calibração.
+
 **Cultura:** Variedade, ciclo de vida, pragas comuns.
-
-## Relacionamentos Adicionais:
-
-**Cultura e Produtor:** Uma cultura pode ser cultivada por um produtor específico.
-
-**Sensor e Sistema:** Um sensor pode estar conectado a um sistema de coleta de dados.
 
 ## Restrições:
 

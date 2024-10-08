@@ -9,7 +9,7 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
 
 ### Atributos
 
-* **Sensores:** Representa um dispositivo físico utilizado para coletar dados sobre as condições do solo, neste projeto os sensores serão pH, umidade e níveis de nutrientes.
+* **Sensores:** Representa um dispositivo físico utilizado para coletar dados sobre as condições do solo, neste projeto os sensores utilizados são pH, umidade e níveis de nutrientes.
 * **Sensores_id:** chave primária
 * ***Tipo:** pH, unidade, nutrientes
 * ***Data_instalacao:**

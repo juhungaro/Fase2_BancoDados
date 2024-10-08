@@ -10,15 +10,15 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
 ### Atributos
 
 * **Sensores:** Representa um dispositivo físico utilizado para coletar dados sobre as condições do solo, neste projeto os sensores utilizados são pH, umidade e níveis de nutrientes.
-* **Sensores_id:** chave primária
-* ***Tipo:** pH, unidade, nutrientes
-* ***Data_instalacao:**
-* ***Localizacao:**
+   * **Sensores_id:** chave primária
+   * **Tipo:** pH, unidade, nutrientes
+   * **Data_instalacao:**
+   * **Localizacao:**
 
-* * **Cultura:** Representa uma espécie vegetal cultivada em determinada área (café e soja).
-* **Cultura_id:** chave primária
-* ***Nome:** pH, unidade, nutrientes
-* ***Data_plantio:**
+* **Cultura:** Representa uma espécie vegetal cultivada em determinada área (café e soja).
+   * **Cultura_id:** chave primária
+   * **Nome:** pH, unidade, nutrientes
+   * **Data_plantio:**
 
 ## Relacionamentos
 

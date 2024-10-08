@@ -21,8 +21,6 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
    * **Data_plantio:**
 
 ## Relacionamentos
-![der](https://github.com/user-attachments/assets/5f7386c8-099e-46b4-9830-1d0147fd5f87)
-
 
 * **Mede**
     * Cardinalidade: Muitos para um (N:1)   
@@ -31,6 +29,7 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
  
 ## Diagrama
 
+![der](https://github.com/user-attachments/assets/5f7386c8-099e-46b4-9830-1d0147fd5f87)
 
 ## Atributos Adicionais
 

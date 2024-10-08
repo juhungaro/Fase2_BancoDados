@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FE65824-0EE9-1163-DA01-70F50A9A0CCB" name="Culturas">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 01:33:44 UTC</createdTime>
+<ownerDesignName>Mer</ownerDesignName>
+<engineerTo>
+<item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="B927F714-62B3-FA1C-8305-7F09993494D2">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 01:35:37 UTC</createdTime>
+<ownerDesignName>Mer</ownerDesignName>
+<engineerTo>
+<item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="4926F1BD-64B5-9978-14A0-B8C821F53380">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 01:34:32 UTC</createdTime>
+<ownerDesignName>Mer</ownerDesignName>
+<engineerTo>
+<item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18E7F48C-60A3-2B20-2D56-F770EF75C813" name="Culturas PK">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 01:35:48 UTC</createdTime>
+<ownerDesignName>Mer</ownerDesignName>
+<engineerTo>
+<item key="FC37C53D-97EF-E6C3-7F79-0B7AE0729A9F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B927F714-62B3-FA1C-8305-7F09993494D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

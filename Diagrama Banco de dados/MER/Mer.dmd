@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Mer" id="ADF59EF0-8B44-2CAE-B18F-340E1EA1B637" version="3.5">
+<createdBy>DIOGO-PC</createdBy>
+<createdTime>2024-10-08 01:32:39 UTC</createdTime>
+<ownerDesignName>Mer</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ADF59EF0-8B44-2CAE-B18F-340E1EA1B637</designId>
+</OSDM_Design>

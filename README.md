@@ -1,5 +1,4 @@
-# Fase2_BancoDados
-# StartUp FarmTech Solutions
+# MER - Modelo Entidade-Relacionamento
 
 ## Introdução
 

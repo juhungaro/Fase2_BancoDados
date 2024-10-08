@@ -21,11 +21,16 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
    * **Data_plantio:**
 
 ## Relacionamentos
+![der](https://github.com/user-attachments/assets/5f7386c8-099e-46b4-9830-1d0147fd5f87)
+
 
 * **Mede**
-    * `Cardinalidade: Muitos para um (N:1)   
-    * `Descrição: Um sensor pode medir apenas uma cultura, mas uma cultura pode ser monitorada por vários sensores.
-    * `Participação: Sensor (muitos), Cultura.
+    * Cardinalidade: Muitos para um (N:1)   
+    * Descrição: Um sensor pode medir apenas uma cultura, mas uma cultura pode ser monitorada por vários sensores.
+    * Participação: Sensor (muitos), Cultura (um).
+ 
+## Diagrama
+
 
 ## Atributos Adicionais
 

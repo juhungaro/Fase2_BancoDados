@@ -8,16 +8,32 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
 
 ### Atributos
 
-* **Sensores:** Representa um dispositivo físico utilizado para coletar dados sobre as condições do solo, neste projeto os sensores utilizados são pH, umidade e níveis de nutrientes.
-   * **Sensores_id:** chave primária
-   * **Tipo:** pH, unidade, nutrientes
-   * **Data_instalacao:**
-   * **Localizacao:**
-
-* **Cultura:** Representa uma espécie vegetal cultivada em determinada área (café e soja).
-   * **Cultura_id:** chave primária
-   * **Nome:** pH, unidade, nutrientes
+* * **Culturas:** Representa uma espécie vegetal cultivada em determinada área (café e soja).
+   * **IdCultura:** PK chave primária (integer)
+   * **Nome:** UN culturas nome (nvarchar)
    * **Data_plantio:**
+ 
+* * **Sensores:** Representa um dispositivo físico utilizado para coletar dados sobre as condições do solo, neste projeto os sensores utilizados são umidade, pH e níveis de nutrientes.
+
+* * **Sensore_Umidades:**
+   * **IdSensorUnidade:** PK chave primária (integer)
+   * **Valor:** (number)
+   * **DataMedicao:** (date)
+   * **IdCultura:** FK chave estrangeira (integer)
+ 
+   * **Sensor_Phs:**
+   * **IdSensorPh:** PK chave primária (integer)
+   * **Valor:** (number)
+   * **DataMedicao:** (date)
+   * **IdCultura:** FK chave estrangeira (integer)
+ 
+   * * **Sensor_Nutrientes:**
+   * **IdSensorNutriente:** PK chave primária (integer)
+   * **Valor:** (number)
+   * **DataMedicao:** (date)
+   * **IdCultura:** FK chave estrangeira (integer)
+
+
 
 ## Relacionamentos
 
@@ -28,17 +44,6 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
  
 ## Diagrama
 
-![der](https://github.com/user-attachments/assets/5f7386c8-099e-46b4-9830-1d0147fd5f87)
-
-## Atributos Adicionais
-
-**Sensor:** Modelo do sensor, fabricante, calibração.
-
-**Cultura:** Variedade, ciclo de vida, pragas comuns.
-
-## Restrições:
-
-Um sensor do tipo pH só pode ser associado a culturas que exigem medições de pH.
-
+![DER](https://github.com/user-attachments/assets/baa4539c-3c2e-400a-b618-e555a5ca24e6)
 
 

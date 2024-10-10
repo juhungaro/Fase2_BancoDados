@@ -8,7 +8,7 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
 
 ### Atributos
 
-* * **Culturas:** Representa uma espécie vegetal cultivada em determinada área (café e soja).
+***Culturas:** Representa uma espécie vegetal cultivada em determinada área (café e soja).
    * **IdCultura:** PK chave primária (integer)
    * **Nome:** UN culturas nome (nvarchar)
    * **Data_plantio:**

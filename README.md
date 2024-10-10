@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER) desenvolvido para representar um sistema de monitoramento de culturas (café e soja) agrícolas. O MER descreve as entidades, seus atributos e os relacionamentos entre essas entidades, fornecendo as informações necessárias para o desenvolvimento de um banco de dados.
+Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER) desenvolvido para representar um sistema de monitoramento de culturas de café e soja. O MER descreve as entidades, seus atributos e os relacionamentos entre essas entidades, fornecendo as informações necessárias para o desenvolvimento de um banco de dados.
 
 ## Entidades
 

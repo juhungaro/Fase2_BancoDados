@@ -8,12 +8,12 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
 
 ### Atributos
 
-***Culturas:** Representa uma espécie vegetal cultivada em determinada área (café e soja).
+**Culturas:** Representa uma espécie vegetal cultivada em determinada área (café e soja).
    * **IdCultura:** PK chave primária (integer)
    * **Nome:** UN culturas nome (nvarchar)
    * **Data_plantio:**
  
-* * **Sensores:** Representa um dispositivo físico utilizado para coletar dados sobre as condições do solo, neste projeto os sensores utilizados são umidade, pH e níveis de nutrientes.
+**Sensores:** Representa um dispositivo físico utilizado para coletar dados sobre as condições do solo, neste projeto os sensores utilizados são umidade, pH e níveis de nutrientes.
 
 * * **Sensore_Umidades:**
    * **IdSensorUnidade:** PK chave primária (integer)

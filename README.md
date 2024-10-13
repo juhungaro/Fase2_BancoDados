@@ -39,9 +39,10 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
     * Cardinalidade: Muitos para um (N:1)   
     * Descrição: Um sensor pode medir apenas uma cultura, mas uma cultura pode ser monitorada por vários sensores.
     * Participação: Sensor (muitos), Cultura (um).
+
+## DER
+![DER](/Cap1_UmMapaDoTesouro/DER.png)
  
-## Diagrama
+## Diagrama Relacional
 
-![DER](https://github.com/user-attachments/assets/baa4539c-3c2e-400a-b618-e555a5ca24e6)
-
-
+![DR](https://github.com/user-attachments/assets/baa4539c-3c2e-400a-b618-e555a5ca24e6)

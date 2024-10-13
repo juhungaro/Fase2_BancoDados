@@ -28,7 +28,8 @@ Este projeto tem como objetivo detalhar o modelo de entidade-relacionamento (MER
  
 **Sensor_Nutrientes:**
    * **IdSensorNutriente:** PK chave primária (integer)
-   * **Valor:** (number)
+   * **ValorFosforo:** (number)
+   * **ValorPotassio:** (number)
    * **DataMedicao:** (date)
    * **IdCultura:** FK chave estrangeira (integer)
 
